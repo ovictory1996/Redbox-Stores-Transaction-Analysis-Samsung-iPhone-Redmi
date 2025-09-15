@@ -86,6 +86,18 @@ To better understand sales performance, profitability, and customer behavior, se
 
 
 ## Insight from analysis
+  - Profit margins were highest on iPhones, making them the most profitable product category.
+  - This suggests that iPhones not only bring high sales but also maintain strong profitability.
+  - iPhones generated the highest revenue, reflecting their strong market demand despite higher prices.
+  - Redmi phones showed strong sales volume, but due to lower unit prices, their overall profit contribution was less than Samsung and iPhone.
+  - Samsung phones delivered a balanced performance with moderate revenue and healthy profit margins.
+
+
+
+## Summary-of-Analysis
+- The sales analysis of Redbox Stores (Georgia branch) provided valuable insights into product performance, customer behavior, and overall profitability. Using the raw transactional dataset, key metrics such as revenue, cost, and profit were calculated and visualized for deeper understanding.
+Product Analysis showed that iPhones generated the highest revenue and profit, Samsung provided stable margins with consistent sales, while Redmi contributed high sales volume but relatively lower profits.
+- Profitability Analysis demonstrated that while all products were profitable, iPhones had the strongest profit margins, followed by Samsung, with Redmi being the least profitable.
 
 
 
