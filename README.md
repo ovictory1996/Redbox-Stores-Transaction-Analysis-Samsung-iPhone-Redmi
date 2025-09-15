@@ -56,7 +56,7 @@ The raw dataset used in this analysis.
  - Splitting the Customer Name column into two separate columns (Customer_Name and Product_Name).
 
 - Power Bi
-   - Using Dax Create  nEW Columns for Total_Cost, Total_Revenue, Profit
+   - Using Dax Create  New Columns for Total_Cost, Total_Revenue, Profit
     - Total_Cost = redbox[Quantity]* redbox[Cost_Price]
     - Total_Revenue = redbox[Quantity]*redbox[Unit_Price]
     - Profit = redbox[Total_Revenue]-redbox[Total_Cost]
@@ -67,6 +67,25 @@ The raw dataset used in this analysis.
     -  Revenue = SUM(redbox[Total_Revenue])
    
 ### Data Analysis: 
+    - Sum of Profit by Product_Name
+    - Sum of Total_Revenue by Product_Name
+    - Total_Quantity by Product_Name
+    - TotalCost by Product_Name
+
+
+
+## Visualizations:
+To better understand sales performance, profitability, and customer behavior, several visualizations were created from the Redbox Stores dataset. These charts and graphs provide a clear picture of key business insights:
+  - Stacked column chart
+  - Treemap
+  - Donut Chart
+  - Slicer
+  - Cards
+
+  - ![Redbos](Redbos.png)
+
+
+## Insight from analysis
 
 
 
