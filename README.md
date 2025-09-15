@@ -40,4 +40,33 @@ The dataset used for this analysis represents transactional records from Redbox 
 - State – The location of the store (Georgia).
 
 
-## INTRODUCTION
+## Data Collection and Preparation 
+#### Raw data:
+The raw dataset used in this analysis.
+[RedBox_Stores](RedBox_Stores.xlsx)
+
+### Tools used: Excel(Power Query editor), Powerbi(Dax-Measure and columns)
+
+## SKILLS DEMONSTRATED:
+- Excel
+ - Load the dataset into Power Query Editor through excel and click on transform for cleaning the dataset
+ - clicking for duplicate in the dataset of which there is no duplicate.
+ - Changing the data types of columns such as Customer_ID, Product_ID, Quantity, and Cost Price to whole numbers
+ - Renaming values in the columns, such as converting text to numbers in the Quantity and Cost Price columns
+ - Splitting the Customer Name column into two separate columns (Customer_Name and Product_Name).
+
+- Power Bi
+   - Using Dax Create  nEW Columns for Total_Cost, Total_Revenue, Profit
+    - Total_Cost = redbox[Quantity]* redbox[Cost_Price]
+    - Total_Revenue = redbox[Quantity]*redbox[Unit_Price]
+    - Profit = redbox[Total_Revenue]-redbox[Total_Cost]
+   -  Using dax to Create New Measures for Profits,TotalCost, Total_Quantity,Revenue
+    -  Profits = SUM(redbox[Profit])
+    -  TotalCost = SUM(redbox[Total_Cost])
+    -  Total_Quantity = SUM(redbox[Quantity])
+    -  Revenue = SUM(redbox[Total_Revenue])
+   
+### Data Analysis: 
+
+
+
